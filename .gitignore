@@ -1,0 +1,13 @@
+# Ignore compiled Java files and Python cache
+@"
+# Java
+*.class
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+"@ | Out-File -FilePath "D:\cpp\.gitignore" -Encoding utf8
